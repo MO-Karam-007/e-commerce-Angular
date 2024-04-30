@@ -1,0 +1,35 @@
+<div class="container my-3">
+  <div *ngIf="isLoading">Loading data...</div>
+  <div *ngIf="!isLoading" class="row justify-content-center">
+
+    <div *ngFor="let product of products; let i as index"  class="col-xl-3 m-3 " >
+    <div class="card" style="width: 18rem;"  [routerLink]="['product',product.id]">
+      <img src="{{product.image}}" width="250px" height="300px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">{{product.title}}</h5>
+        <p class="card-text text-truncate">{{product.description}}</p>
+        <div class="row justify-content-between">
+          <p class="col-4">{{product.rating.count}} votes</p>
+          <p class="col-6 text-truncate">{{product.category}}</p>
+        </div>
+        <div class="row">
+          <p-rating [cancel]="false" [readonly]="true" [(ngModel)]="product.stars"></p-rating>
+        </div> 
+
+        <div class="row justify-content-between">
+          <p class="col-4">{{product.price}}$</p>
+          <button class="btn btn-info col-4">cart</button>
+        </div>
+
+
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  </div>
+</div>

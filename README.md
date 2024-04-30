@@ -1,4 +1,8 @@
-# FoodApp
+# E-commerce App
+
+This is a E-commerce application built using Angular Firebase technologies.
+
+![Home screen](e-commerce.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
