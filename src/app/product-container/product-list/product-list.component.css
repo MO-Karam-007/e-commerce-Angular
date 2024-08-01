@@ -1,0 +1,44 @@
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 190px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 13px 13px 0 0;
+    transition: all 0.7s ease;
+    overflow: hidden;
+    padding: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card img {
+    border-radius: 8px 8px 0 0;
+    width: 180px;
+    height: auto;
+    margin-bottom: 4px;
+    transition: all 1s ease;
+
+}
+
+.card img:hover {
+    transform: scale(1.03);
+    border-radius: 13px 13px 0 0;
+    transition: all 1s ease;
+
+}
+
+.card * {
+    outline: red;
+
+}

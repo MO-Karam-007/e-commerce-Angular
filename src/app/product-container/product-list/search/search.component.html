@@ -1,0 +1,15 @@
+<div class="search-area">
+    <!-- <div class="search-btn">
+        <input type="text" name id placeholder="Search"
+            [value]="searchText"
+            (input)="search($event)">
+            -->
+    <div class="search-btn">
+        <input type="text" name id placeholder="Search"
+            [(ngModel)]="searchText">
+
+        <button>Search</button>
+    </div>
+
+    <div>Search result : {{searchText}}</div>
+</div>

@@ -1,0 +1,11 @@
+.mini-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 0 10px;
+}
+
+.mini-header li {
+    font-size: 0.7rem;
+}
