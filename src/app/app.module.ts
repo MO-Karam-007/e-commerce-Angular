@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
-import { SearchComponent } from './product-container/product-list/search/search.component';
+import { SearchComponent } from './product-container/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductListComponent } from './product-container/product-list/product-list.component';
 import { ProductContainerComponent } from './product-container/product-container.component';

@@ -1,11 +1,4 @@
-import { Component } from '@angular/core';
-@Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
-})
-export class ProductListComponent {
-  products :any[] = [
+export const products:any[] = [
     {
         id: 1,
         title: "Essence Mascara Lash Princess",
@@ -1803,7 +1796,3 @@ export class ProductListComponent {
         thumbnail: "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
     }
 ]
-
-
-
-}

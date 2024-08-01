@@ -2,8 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 800px;
+
+
+    /* background-color: aquamarine; */
 }
+
 
 .card {
     border: 1px solid black;
@@ -41,4 +44,9 @@
 .card * {
     outline: red;
 
+}
+
+.desc {
+    max-height: 45px;
+    overflow: hidden;
 }

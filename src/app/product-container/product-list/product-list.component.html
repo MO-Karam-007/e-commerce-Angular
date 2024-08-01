@@ -1,9 +1,10 @@
 <div class="card-area">
-    <div class="card">
-        <img [src]=product alt>
-        <h4 class="text-truncate">{{name}}</h4>
-        <p>{{desctiption }}</p>
-        <p>{{price+' $'}}</p>
+    <!--  -->
+    <div class="card" *ngFor="let product of products;">
+        <img [src]=product.thumbnail alt>
+        <h4 class="text-truncate">{{product.title}}</h4>
+        <p class="desc">{{product.description}}</p>
+        <p>{{product.price+' $'}}</p>
     </div>
 
 </div>

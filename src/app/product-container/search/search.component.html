@@ -1,4 +1,4 @@
-<div class="search-area">
+ <div class="search-area">
     <!-- <div class="search-btn">
         <input type="text" name id placeholder="Search"
             [value]="searchText"
@@ -11,5 +11,5 @@
         <button>Search</button>
     </div>
 
-    <div>Search result : {{searchText}}</div>
+    <div *ngIf="!!searchText">Search result : {{searchText}}</div>
 </div>

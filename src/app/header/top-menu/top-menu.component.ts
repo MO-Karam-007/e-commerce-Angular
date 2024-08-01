@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-menu.component.css']
 })
 export class TopMenuComponent {
-  miniItem:string[] = ["Hello",'Text',"login","signup"];
+  miniItem:string[] = ["Help",'Exchange & Returns',"Order Tracker","SignUp/ Login"];
 
 }

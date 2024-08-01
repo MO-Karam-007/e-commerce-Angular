@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./header.component.css']
 })
 export class HeaderComponent{
-    mainMenu:string[] = ["Home", "About", "Contact us"]
+    mainMenu:string[] = ["Home", "Products", "Sale","New Arrival",'Contact',"Services"]
 
 }
