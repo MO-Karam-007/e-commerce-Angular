@@ -16,13 +16,15 @@
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    border-radius: 13px 13px 0 0;
     transition: all 0.7s ease;
     overflow: hidden;
     padding: 4px;
     font-size: 0.7rem;
     font-weight: 500;
     cursor: pointer;
+}
+.card:hover{
+    box-shadow: 4px 7px 7px 0px rgba(0,0,0,0.75);
 }
 
 .card img {
@@ -37,7 +39,7 @@
 .card img:hover {
     transform: scale(1.03);
     border-radius: 13px 13px 0 0;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 
 }
 
